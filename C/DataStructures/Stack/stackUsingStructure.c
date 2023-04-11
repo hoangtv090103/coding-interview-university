@@ -45,6 +45,7 @@ int main() {
     push(&stack, 3);
     push(&stack, 4);
     push(&stack, 5);
+    push(&stack, 6);
 
     printf("%d", top(stack));
     pop(&stack);
